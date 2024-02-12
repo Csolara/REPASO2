@@ -51,6 +51,8 @@ namespace REPASO2.Servicios
                 Console.WriteLine("");
                 Console.WriteLine("=============================");
                 Console.WriteLine("Nombre: " + Actividad.NombreActividad);
+                Console.WriteLine("Fecha inicial: " + Actividad.FechaInicioActividad);
+                Console.WriteLine("Fecha final: " + Actividad.FechaFinActividad);
                 Console.WriteLine("Minutos: " + Actividad.DuracionActividad.TotalMinutes);
                 Console.WriteLine("=============================");
                 Console.WriteLine("");
